@@ -65,5 +65,6 @@ li:nth-last-of-type(1){
 background-color:blue;
 }
 img:only-of-type {
-width:200px;
+width:220px;
 }
+
