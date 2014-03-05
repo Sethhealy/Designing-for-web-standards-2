@@ -1,120 +1,134 @@
-h1{
-margin-left:20px;
+h1,h2{
+	margin-left:20px;
 }
-h2{
-margin-left:20px;
-}
+
 p{
-float:left;
-width:60%;
-margin-left:20px;
-margin-right:50px;
+	float:left;
+	width:60%;
+	margin-left:20px;
+	margin-right:50px;
 }
 
 div.scroll{
-bottom: 10px;
-position: fixed;
-right: 20px;
+	bottom: 10px;
+	position: fixed;
+	right: 20px;
 }
 td{
-padding:20px;
+	padding:20px;
 }
 tr:hover{
-outline:2px solid blue;
+	outline:2px solid blue;
 }
 h3{
-clear:both;
-text-align:center;
+	clear:both;
+	text-align:center;
 }
 table{
-width:100%;
-background-color:white;
-text-align:left;
+	width:100%;
+	background-color:white;
+	text-align:left;
 }
 th{
-padding:0px 20px 0px 20px;
-background-color:grey;
-color:white;
+	padding:0px 20px 0px 20px;
+	background-color:grey;
+	color:white;
 }
 div.bar{
-background-color:grey;
+	background-color:grey;
 }
-a:link    {color:#0C5AA6;
+a:link    {
+	color:#0C5AA6;
 }
-a:visited {color:purple;
+a:visited {
+	color:purple;
 }
-a:hover   {color:black;
+a:hover   {
+	color:black;
 }
-a:active  {color:yellow;
+a:active  {
+	color:yellow;
 }
-/* DWS2 Assignment */
+/* DWS2 Assignment L1 start */
 
 tr:nth-child(even){
-background-color: #eee;
+	background-color: #eee;
 }
 tr:nth-last-child(1){
-background-color:brown;
+	background-color:brown;
 }
-li:empty{
-background-color:red;
-}
+
 li:nth-of-type(even){
-background-color:green;
+	background-color:green;
 }
 li:nth-last-of-type(1){
-background-color:blue;
+	background-color:blue;
 }
 img:only-of-type {
-width:220px;
+	width:220px;
 }
 a[href*="example"]{
-background-color: blue;
+	background-color: blue;
 }
 a[href$=".cn"]{
-color: red;
+	color: red;
 }
 a[href^="#"]{
-background-color:yellow;
+	background-color:yellow;
 }
 span[lang] {
-outline:1px solid blue;
+	outline:1px solid blue;
 }
 span[lang="pt"] {
-color:blue;
+	color:blue;
 }
-span[lang~="en-us"] {
-color: green;
+span[lang~="en"] {
+	color: green;
 }
 span[lang|="zh"] {
-color: red;
+	color: red;
 }
 :root{
-  border:3px solid grey;
+    border:5px solid grey;
 }
 li:only-child{
-  color:red;
-  font-style:italic;
+    color:red;
+    font-style:italic;
 }
 p:first-of-type{
-color:green;
+	color:green;
 }
 p:last-of-type{
-color:blue;
-font-style:italic;
+	color:blue;
+	font-style:italic;
 }
 h1:first-child{
-color:orange;
-text-transform:capitalize;
+	color:orange;
+	text-transform:capitalize;
 }
 a:last-child{
-color:brown;
+	color:brown;
 }
 section > p {
-color: purple;
+	color: purple;
 }
 li + li + li{
-color:magenta;
+	color:magenta;
 }
 h2 ~ p {
-  font-weight: bold;
+    font-weight: bold;
 }
+*{
+    font-weight:1em;
+}
+p:first-letter{
+    font-size:1.2em;
+    margin-right:0.1em;
+}
+#list{
+    border:3px solid #666;
+}
+h4:empty{
+  background-color:#000;
+}
+/* DWS2 Assignment L1 end */
