@@ -30,7 +30,6 @@ table{
 width:100%;
 background-color:white;
 text-align:left;
-
 }
 th{
 padding:0px 20px 0px 20px;
@@ -40,7 +39,6 @@ color:white;
 div.bar{
 background-color:grey;
 }
-
 a:link    {color:#0C5AA6;
 }
 a:visited {color:purple;
@@ -49,6 +47,8 @@ a:hover   {color:black;
 }
 a:active  {color:yellow;
 }
+/* DWS2 Assignment */
+
 tr:nth-child(even){
 background-color: #eee;
 }
@@ -56,7 +56,7 @@ tr:nth-last-child(1){
 background-color:brown;
 }
 li:empty{
-color:red
+background-color:red;
 }
 li:nth-of-type(even){
 background-color:green;
@@ -67,4 +67,54 @@ background-color:blue;
 img:only-of-type {
 width:220px;
 }
-
+a[href*="example"]{
+background-color: blue;
+}
+a[href$=".cn"]{
+color: red;
+}
+a[href^="#"]{
+background-color:yellow;
+}
+span[lang] {
+outline:1px solid blue;
+}
+span[lang="pt"] {
+color:blue;
+}
+span[lang~="en-us"] {
+color: green;
+}
+span[lang|="zh"] {
+color: red;
+}
+:root{
+  border:3px solid grey;
+}
+li:only-child{
+  color:red;
+  font-style:italic;
+}
+p:first-of-type{
+color:green;
+}
+p:last-of-type{
+color:blue;
+font-style:italic;
+}
+h1:first-child{
+color:orange;
+text-transform:capitalize;
+}
+a:last-child{
+color:brown;
+}
+section > p {
+color: purple;
+}
+li + li + li{
+color:magenta;
+}
+h2 ~ p {
+  font-weight: bold;
+}
