@@ -1,0 +1,112 @@
+body
+{
+background-image:url("../images/steel.png");
+max-width:100%; /*960px */
+}
+nav{
+font-size:1em;/* 16px/16=1em */
+}
+div.wrapper{
+background-color:#d9d4d4;
+width:96%; /* kept at 96% because of desire of a border looking background */
+margin:0 auto
+}
+header{
+width:90%;
+text-align:center;
+margin:auto auto; 
+}
+section{
+padding-left:15px; /* Couldn't get desired effect with percentile */
+padding-right:15px;
+float:left;
+width:32%; /* 960/300px */
+margin:auto;
+}
+aside{
+margin-left:40px; /* couldn't get the desired result with percentile */ 
+float:left;
+width:27.4285714%; /* 960/350= 2.74285714285714 */
+}
+article{
+padding-right:15px; /*couldn't get desired result from percentile  */
+float:right;
+width:27.4285714%; /*960/350 */
+}
+footer{
+clear:both;
+}
+#banner{
+width:100%
+}
+h2{
+text-align:center;
+}
+footer{
+text-align:center;
+}
+div.cars{
+margin-left:8.75%;
+}
+div.road{
+text-align:center;
+}
+div.s{
+text-align:center;
+}
+div.e{
+text-align:center;
+}
+div.x{
+text-align:center;
+}
+ul{
+padding:0px;
+list-style-type:none;
+}
+/* Media Queries */
+@media screen and (min-width:760px) and (max-width: 959px){
+article{
+float:none;
+margin-left:15px;
+}
+aside{
+width:45%;
+}
+section{
+width:45%;
+}
+}
+@media screen and (min-width:480px) and (max-width: 759px){
+article{
+width:95%;
+margin:1%;
+}
+aside{
+
+width:95%;
+margin:1%;
+}
+section{
+width:95%;
+margin:1%;
+}
+@media screen and (max-width:479px){
+
+article{
+width:96%
+margin:0 1% 1% 1%;
+padding:1%;
+}
+aside{
+width:96%;
+}
+section{
+width:96%;
+}
+}
+
+
+
+
+
