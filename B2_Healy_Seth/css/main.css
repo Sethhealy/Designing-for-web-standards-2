@@ -5,6 +5,14 @@ max-width:100%; /*960px */
 }
 nav{
 font-size:1em;/* 16px/16=1em */
+width:96%;
+}
+nav ul{
+padding:0px;
+list-style-type:none;
+overflow:hidden;
+float:left;
+width:32%;/*960/300 */
 }
 div.wrapper{
 background-color:#d9d4d4;
@@ -45,67 +53,57 @@ text-align:center;
 footer{
 text-align:center;
 }
-div.cars{
-margin-left:8.75%;
-}
-div.road{
-text-align:center;
-}
-div.s{
-text-align:center;
-}
-div.e{
-text-align:center;
-}
-div.x{
-text-align:center;
-}
 ul{
 padding:0px;
 list-style-type:none;
 }
+div.road, div.s, div.e, div.x, div.cars{
+text-align:center;
+margin-bottom:10px;
+}
+div.s{
+margin-top:10px;
+}
+div.e{
+margin-top:10px;
+}
+
+
 /* Media Queries */
 @media screen and (min-width:760px) and (max-width: 959px){
 article{
 float:none;
-margin-left:15px;
+margin-left:1.5%;
 }
-aside{
-width:45%;
-}
-section{
+aside, section{
 width:45%;
 }
 }
 @media screen and (min-width:480px) and (max-width: 759px){
-article{
+article, aside, section{
 width:95%;
 margin:1%;
 }
-aside{
-
-width:95%;
-margin:1%;
 }
-section{
-width:95%;
-margin:1%;
-}
-@media screen and (max-width:479px){
+@media screen and (max-width: 479px) {
 
 article{
-width:96%
+float:none;
+width:96%;
 margin:0 1% 1% 1%;
 padding:1%;
 }
-aside{
+aside, section{
 width:96%;
-}
-section{
-width:96%;
-}
+float:none;
+padding:1%;
+margin:1%;
 }
 
+img{
+display:none
+}
+}
 
 
 
