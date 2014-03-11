@@ -33,11 +33,13 @@ text-align:center;
 clear:both;
 color:white;
 }
+/* 
 h1,h2,h3{
 text-align:center;
 margin-top:2%;
 width:100%;
 }
+ */
 h2{
 margin-top:2%;
 }
@@ -48,7 +50,11 @@ color:white;
 a:visited{
 color:blue;
 }
-
+div.tester img{
+float: left; 
+width:62%;
+margin-left:.9em;
+}
 
 /* #Page Styles
 ================================================== */
