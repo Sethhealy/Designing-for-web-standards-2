@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title> Alliance of knowledge </title>
+		<link rel="stylesheet" href="css/main.css" type="text/css" />
+		<script src="js/jquery-1.8.2.js"></script>
+		<script src="js/modernizr-custom.js"></script>
+		<script src="polyfiller.js"></script>
+  
+		<script>
+    		// Polyfill all unsupported features
+    		$.webshims.polyfill();	
+		</script>
+  
+ 		 <script>
+    // Polyfill only form and canvas features
+    $.webshims.polyfill('forms canvas');	
+</script>
+	</head>
+
+<body>
+	<div class="wrapper">
+
+	<h1>Alliance of knowledge</h1>  
+		<header id="header" class="info">
+	<h2>About You</h2>
+		<p>We here at the alliance of knowledge are determined to learn anything and everything about everyone. Please with your help we can learn a little about you.</p>
+		</header>
+
+					<!-- FORM Start -->		
+	<form>
+	<ul>
+		<li>
+      <label for="first-name">First Name</label>
+      <input type="text" value="" name="first-name" placeholder="first" />
+    </li>
+
+    <li>
+      <label for="last-name">Last Name</label>
+      <input type="text" value="" name="last-name" placeholder="last" />
+    </li>
+
+    <li>
+      <label for="address-1">Address</label>
+      <input type="text" value="" name="address-1" placeholder="2211 spinning reel circle" />
+    </li>
+
+    <li>
+      <label for="address-2">Address 2</label>
+      <input type="text" value="" name="address-2" placeholder="22112 spinning reel circle" />
+    </li>
+
+    <li>
+      <label for="city">City</label>
+      <input type="text" value="" name="city" placeholder="sometime" />
+    </li>
+
+    <li>
+      <label for="state">State</label>
+      <input type="text" value="" name="state" placeholder="somewhere" />
+    </li>
+
+    <li>
+      <label for="zip-code">Zip Code</label>
+      <input type="tetx" value="" name="zip-code" placeholder="34471" />
+    </li>
+
+
+    <li>
+      <label for="country">Country</label>
+      	<select id="country" name="country" class="field select addr">
+				<option value="United States" >United States</option>
+				<option value="United Kingdom" >United Kingdom</option>
+				<option value="South America" >South America</option>
+					</select>
+
+      </select>
+    </li>
+
+    <li>
+      <label for="phone">Phone</label>
+      <input type="tel" value="" for="phone" placeholder="3527778878" />
+    </li>
+
+    <li>
+      <label for="email">Email</label>
+      <input type="email" value="" name="email" placeholder="email@email.edu" />
+    </li>
+   </ul> 
+</form> <!-- end form -->
+
+<ul>
+	<li>
+		
+		<p>What is your favorite color(s)?</p>
+	
+		<input id="red" name="red" type="checkbox" class="field checkbox" value="Red" />
+		<label class="choice" for="red">Red</label>
+		<input id="green" name="green" type="checkbox" class="field checkbox" value="Green" />
+		<label class="choice" for="green">Green</label>
+		<input id="blue" name="blue" type="checkbox" class="field checkbox" value="Blue" />
+		<label class="choice" for="blue">Blue</label>
+		<input id="yellow" name="yellow" type="checkbox" class="field checkbox" value="Yellow" />
+		<label class="choice" for="yellow">Yellow</label>
+		<input id="indigo" name="indigo" type="checkbox" class="field checkbox" value="Indigo" />
+		<label class="choice" for="indigo">Indigo</label>
+		<input id="violet" name="violet" type="checkbox" class="field checkbox" value="Violet" />
+		<label class="choice" for="violet">Violet</label>
+		<input id="orange" name="orange" type="checkbox" class="field checkbox" value="Orange" />
+		<label class="choice" for="orange">Orange</label>
+
+		
+	</li>
+		<li>
+			<p>Why is that your favorite color(s)?</p>
+		</li>
+	<li>
+		<div>
+			<textarea id="favorite" 
+			name="favorite" 
+			class="field textarea small" 
+			spellcheck="true" 
+			rows="10" cols="50" 
+			tabindex="17" 
+			onkeyup=""
+			required  >
+			</textarea>
+
+		</div>
+	</li>
+		<li>
+			<div class="employment">Place of employment
+				<input id="employment" name="employment" type="text" class="field text medium" value="" maxlength="30" onkeyup="validateRange(117, 	'character');" required />
+				<label for="employment">Maximum Allowed: <var id="rangeMaxMsg117">30</var> characters.&nbsp;&nbsp;&nbsp; <em class="currently"></em></label>
+			</div>
+		</li>
+	<div class="start">
+		<li id="starting" class="forms">
+		<label class="desc" id="start" for="employment">
+		Start of employment
+		</label>
+	<li>
+      <label for="start-date"></label>
+      <input type="date" value="" name="expiration-date">
+    </li>
+		</li>
+	</div>
+		<div class="end">
+		<li id="foli219" class="date notranslate      ">
+			<label class="desc" id="end" for="employment">
+			End of employment.(if still current leave blank)</br>
+			</label>
+			<input id="month" name="month" type="text" class="field text" value="" size="2" maxlength="2"  />
+			<label for="month">MM/</label>
+			<input id="date" name="date" type="text" class="field text" value="" size="2" maxlength="2" />
+			<label for="date">DD/</label>
+			<input id="year" name="year" type="text" class="field text" value="" size="4" maxlength="4" />
+			<label for="year">YYYY</label>
+			<img id="calendar" class="datepicker" src="images/calendar.png" alt="Pick a date." />
+		</li>
+	</div>
+		<div class="rate">
+			<p> How would you rate our services? </p>
+						<p id="rng"><input id="slider" class="float_left clear" name="howYouRateIt" type="range" min="1" max="10" value="10" onchange="showValue(this.value)"><span id="range" class="float_left">10+</span></p>
+		</div>
+ 	<li class="buttons ">
+		<div>
+
+    		<input id="submit" name="submit" class="btTxt submit" 
+    		type="submit" value="Submit" />
+		</div>
+	</li>
+
+	</ul> 
+
+</div>
+
+	<script type="text/javascript">
+  	setInterval(function(){location.reload()},10000);
+	</script>
+	<script>
+				function showValue(newValue)
+				{
+				document.getElementById("range").innerHTML=newValue;
+				}
+			</script>
+			<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+</body>
+	</html>

@@ -1,0 +1,97 @@
+body{
+	width:96%;
+	margin:0 auto;
+	background-color:#FF9640;
+}
+
+.wrapper{
+	width:80%;
+	margin: 0 auto;
+	background-color: #fffff4;
+	padding-left:2%;
+}
+
+ul{
+	list-style: none;
+	width:45%;
+	margin:0 auto;
+}
+
+li{
+	width:80%;
+	margin-top: 1em;
+}
+
+form ul li label{
+	width: 70px;
+	float: left;
+	text-align: right;
+	margin-right: 10px;
+}
+
+form ul li input{
+	width: 130px;
+}
+
+form ul li select{
+	width: 135px;
+}
+.color{
+	width:80%;
+	float:left;
+	margin-top: 20px;
+}
+
+.why{
+	width:80%;
+	float:left;
+	margin-top: 20px;
+}
+
+.employment{
+	width:100%;
+	margin-top: 20px;
+}
+
+.start{
+	width:100%;
+	margin-top: 20px;
+}
+
+.end{
+	width:100%;
+	margin-top:20px;
+}
+
+.rate{
+	width:100%;
+	margin-top: 20px;
+}
+
+h1{
+	width:100%;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
