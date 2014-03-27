@@ -1,0 +1,271 @@
+body {
+	width:100%;
+	overflow-x:hidden;
+	line-height: 1.875em;
+    background-image: url(../images/pattern.jpg);
+}
+
+ul{
+  list-style: square;
+}
+
+.social ul{
+  list-style: none;
+}
+.wrapper{
+	width:95%;
+	margin:0 auto;
+  background-color:lightblue;
+}
+
+#catering{
+  width:100%;
+  height:400px ;
+  margin: 0 auto;
+}
+.featured{
+  margin-top: 20px;
+  text-align: center;
+}
+
+#babovka{
+  width:32%;
+}
+
+#goulash{
+  width:32%;
+}
+
+#beef{
+  width:32%;
+}
+.mission{
+  width:30%;
+  float:left;
+}
+
+.social{
+  width:30%;
+  float:left;
+}
+
+.comment{
+  width:30%;
+  float:left;
+}
+.bottom{
+  width:95%;
+  margin: 0 auto;
+  clear:both;
+}
+footer{
+  clear:both;
+}
+/*Menu css*/
+
+.lefts, .centers, .rights{
+  width:32%;
+  float:left;
+}
+
+.menu{
+  width:100%;
+  clear:both;
+}
+
+/*menu end*/
+
+/*About us*/
+.about{
+  width:60%;
+  float:left;
+  margin-right: 20px;
+}
+
+.video{
+  width:35%;
+  float:left;
+}
+
+.green{
+  width:50%;
+  float: left;
+}
+/*about us end*/
+/*Photos*/
+.photos{
+  width:100%;
+}
+
+.first, .second, .third{
+  width:32%;
+  float:left;
+}
+
+.first li, .second li, .third li{
+list-style: none;
+}
+/*photos end*/
+
+/*Contact*/
+form{
+  width:60%;
+  float: left;
+  margin-left: 
+}
+
+.table{
+  width:40%;
+  float: left;
+}
+
+.phone{
+  width:40%;
+  float:right;
+  margin-top: -10px;
+}
+/*end of contact*/
+#cssmenu {
+  font-size: 10px;
+  line-height: 15px;
+  text-transform: uppercase;
+  text-align: center;
+}
+#cssmenu > ul {
+  width: auto;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: #EEF66C;
+  border: 1px solid #ece6e8;
+  border-bottom: 3px solid #d9ced2;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+}
+#cssmenu > ul li#responsive-tab {
+  display: none;
+  /* Hide for large screens */
+
+}
+#cssmenu > ul li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+}
+#cssmenu > ul li.right {
+  float: right;
+}
+#cssmenu > ul li.has-sub {
+  position: relative;
+}
+#cssmenu > ul li.has-sub:hover ul {
+  display: block;
+}
+#cssmenu > ul li.has-sub ul {
+  display: none;
+  width: 250px;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background: #ffffff;
+  border: 1px solid #ece6e8;
+  border-bottom: 3px solid #d9ced2;
+  border-top: 0 none;
+}
+#cssmenu > ul li.has-sub ul li {
+  display: block;
+}
+#cssmenu > ul li.has-sub > a {
+  background-position: 90% -95%;
+}
+#cssmenu > ul li.has-sub > a.active,
+#cssmenu > ul li.has-sub > a:hover {
+  background: #663399 url('caret.png') no-repeat;
+  background-position: 90% 195%;
+}
+#cssmenu > ul li a {
+  display: block;
+  padding: 12px 24px 11px 24px;
+  text-decoration: none;
+  color: #747474;
+  text-shadow: 0px 1px 0px #fff;
+}
+#cssmenu > ul li a.active,
+#cssmenu > ul li a:hover {
+  background: #663399;
+  color: #fff;
+  text-shadow: 0px 1px 0px #000;
+}
+
+@media screen and (min-width:879px) and (max-width: 959px){
+  .third{
+    float:none;
+  }
+}
+
+@media screen and (min-width:701px) and (max-width: 879px){
+  .third{
+    float:none;
+  }
+}
+
+@media screen and (min-width:521px) and (max-width: 700px){
+  .video{
+    display: none;
+  }
+
+  .third{
+    float:none;
+  }
+}
+@media screen and (max-width: 520px) {
+
+  .lefts, .centers, .rights{
+  width:32%;
+  float:none;
+  margin:0 auto;
+}
+  .third{
+    float: none;
+  }
+
+  .second{
+    float:none;
+  }
+
+  .video{
+    display: none;
+  }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
